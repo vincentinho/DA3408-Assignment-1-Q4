@@ -1,0 +1,13 @@
+name: reproducibility-capstone
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mlflow==3.15.0
+      - pandas==2.2.3
+      - scikit-learn==1.5.2
+      - dvc[s3]
